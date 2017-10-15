@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
+    <link rel="stylesheet" href="stylesheets/awesomplete.css" type="text/css"/>
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/awesomplete.min.js"></script>
+    <script type="text/javascript" src="scripts/map_manager.js"></script>
+    <script type="text/javascript" src="scripts/map.js"></script>
+    <script type="text/javascript" src="scripts/room.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/constants.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+    <title>Marauders Map</title>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <input type="text" class="search" id="inputSearch" placeholder="Where are you going? (e.g. Standard)" data-js="search" data-mapid="whitehouse" />
+      <ul class="nav-bar">
+        <li>
+          <a href="#" data-js="office" data-office-id="england">
+            <span>London</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-js="office" data-office-id="paris">
+            <span>Paris</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-js="office" data-office-id="usa">
+            <span>D.C.</span>
+          </a>
+        </li>
+      </ul>
+      <div data-office-id="usa" class="mapContainer active">
+        <div class="floor">
+          <span class='tooltip'></span>
+          <span class="beacon"></span>
+          <img src="images/USA/white-house.gif" data-level="0" class="map" />
+        </div>
+        <div class="floor">
+          <img src="images/USA/office.jpg" data-level="1" class="map" />
+        </div>
+      </div>
+      <div class="mapContainer" data-office-id="paris">
+        <div class="floor">
+          <img src="images/France/Versailles-plan.jpg" data-level="0" class="map" />
+        </div>
+      </div>
+      <div class="mapContainer" data-office-id="england">
+        <div class="floor">
+          <img src="images/England/london-tower-map.jpg" class="map" data-level="0"/>
+        </div>
+      </div>
+      <a href="mailto:foo@example.com" class="feedback" target="_blank">
+        Feedback
+      </a>
+    </div>
+  </body>
+</html>
