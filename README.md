@@ -19,8 +19,25 @@ Simply open the `index.html` file.
 
 ## Contributing
 Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+After changes have been merged into master, update the `gh-pages` accordingly.
 
-## demo
+## Demo
+Visit http://technology.customink.com/easy_office_map/
+
+You can search the following points:
+
+### London:
+  * Middle Tower
+  * Byward Tower
+
+### Paris:
+  * Royal Opera
+
+### D.C.
+ * Press Corps Office
+ * Product Mgmt: 3
+ * Reception: 1
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](docs/LICENSE.md) file for details
