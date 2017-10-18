@@ -19,6 +19,7 @@ Simply open the `index.html` file.
 
 ## Contributing
 Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+After changes have been merged into master, update the `gh-pages` accordingly.
 
 ## Demo
 Visit http://technology.customink.com/easy_office_map/
